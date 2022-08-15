@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Input() {
+function Input({ label, id }) {
           return (
-                    <div>
-                              <label for=""></label>
-                              <input type="text" id=""></input>
-                    </div>
+                    <div className="input-wrapper">
+                              <label for={id}>{label}</label>
+                              <input type="text" id={id} name={id}></input>
+                    </div >
           )
 }
 

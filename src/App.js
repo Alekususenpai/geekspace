@@ -1,8 +1,10 @@
+import Signup from "./pages/Signup";
 
 function App() {
   return (
-    <div>
-    </div>
+    <main>
+      <Signup/>
+    </main>
   );
 }
 
